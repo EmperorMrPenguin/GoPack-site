@@ -57,6 +57,8 @@
             background: #A67C52;
             color: white;
         }
+
+       
     </style>
 </head>
 <body class="selection-clay font-sans antialiased">
@@ -73,12 +75,12 @@
             <div class="flex items-center gap-4 sm:gap-8">
                 <!-- Ikony sociálních sítí -->
                 <div class="flex items-center gap-4">
-                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" 
+                    <a href="https://www.instagram.com/gopack_trailscommunity/" target="_blank" rel="noopener noreferrer" 
                        class="text-forest hover:text-clay transition-all duration-300 transform hover:scale-125 flex items-center" 
                        title="Sledujte nás na Instagramu">
                         <i data-lucide="instagram" class="w-5 h-5"></i>
                     </a>
-                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" 
+                    <a href="https://www.facebook.com/profile.php?id=61572064965296" target="_blank" rel="noopener noreferrer" 
                        class="text-forest hover:text-clay transition-all duration-300 transform hover:scale-125 flex items-center" 
                        title="Sledujte nás na Facebooku">
                         <i data-lucide="facebook" class="w-5 h-5"></i>
@@ -115,24 +117,25 @@
                         <i data-lucide="download" class="w-4 h-4"></i>
                         Stáhnout
                     </a>
-                    
+                    <!--
                     <div class="flex flex-col items-center">
                         <div class="bg-white p-2 rounded-xl border border-forest/10 shadow-lg">
                             <img src="stuff/qr DOCAS.png">
                         </div>
                         <span class="text-xs text-forest/50 mt-2 font-medium">Naskenuj a stáhni</span>
                     </div>
+                    -->
                 </div>
             </div>
 
             <div class="relative animate-fade-in-up">
                 <div class="aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl relative z-10">
                     <img 
-                        src="stuff/hiker.png" 
+                        src="stuff/photos/1776460593573.jpg" 
                         alt="Turista v přírodě" 
                         class="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                     >
-                    <div class="absolute inset-0 bg-gradient-to-t from-forest/40 to-transparent"></div>
+                    
                 </div>
                 <!-- Decorative elements -->
                 <div class="absolute -top-10 -right-10 w-40 h-40 bg-clay/10 rounded-full blur-3xl"></div>
@@ -174,6 +177,55 @@
                     <h3 class="font-display text-2xl font-bold mb-4">Komunita</h3>
                     <p class="text-forest/60 leading-relaxed">Plánujte, sdílejte svoje trasy s ostatními a objevujte nová místa.</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Play Style Screenshot Section -->
+    <section class="py-20 px-4 bg-white overflow-hidden border-t border-forest/5">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="font-display text-3xl lg:text-5xl font-black mb-4 text-forest">Nahlédněte do aplikace</h2>
+                <p class="text-forest/60 max-w-2xl mx-auto italic">Jednoduché, intuitivní a připravené na každou cestu.</p>
+            </div>
+
+            <div class="relative">
+                <!-- Scroll container -->
+                <div class="flex overflow-x-auto gap-8 pb-12 pt-4 snap-x snap-mandatory scroll-smooth" id="screenshot-container">
+                    
+                    <!-- Screenshot 1 -->
+                    <div class="flex-none w-64 sm:w-72 snap-center">
+                        <div class="bg-gray-900 rounded-[2.5rem] p-1 border-[6px] border-gray-900 shadow-2xl aspect-[9/19] overflow-hidden">
+                            <img src="stuff/photos/1776460593573.jpg" class="w-full h-full object-cover rounded-[2rem]">
+                        </div>
+                    </div>
+
+                    <!-- Screenshot 2 -->
+                    <div class="flex-none w-64 sm:w-72 snap-center">
+                        <div class="bg-gray-900 rounded-[2.5rem] p-1 border-[6px] border-gray-900 shadow-2xl aspect-[9/19] overflow-hidden">
+                            <img src="stuff/photos/1776460593158.jpg" class="w-full h-full object-cover rounded-[2rem]">
+                        </div>
+                    </div>
+
+                    <!-- Screenshot 3 -->
+                    <div class="flex-none w-64 sm:w-72 snap-center">
+                        <div class="bg-gray-900 rounded-[2.5rem] p-1 border-[6px] border-gray-900 shadow-2xl aspect-[9/19] overflow-hidden">
+                            <img src="stuff/photos/1776460593228.jpg" class="w-full h-full object-cover rounded-[2rem]">
+                        </div>
+                    </div>
+
+                    <!-- Screenshot 4 -->
+                    <div class="flex-none w-64 sm:w-72 snap-center">
+                        <div class="bg-gray-900 rounded-[2.5rem] p-1 border-[6px] border-gray-900 shadow-2xl aspect-[9/19] overflow-hidden">
+                            <img src="stuff/photos/1776460593418.jpg" class="w-full h-full object-cover rounded-[2rem]">
+                        </div>
+                    </div>
+
+                </div>
+                
+                <!-- Gradient overlays pro desktop -->
+                <div class="hidden lg:block absolute top-0 left-0 h-full w-20 bg-gradient-to-r from-white to-transparent pointer-events-none"></div>
+                <div class="hidden lg:block absolute top-0 right-0 h-full w-20 bg-gradient-to-l from-white to-transparent pointer-events-none"></div>
             </div>
         </div>
     </section>
@@ -247,9 +299,9 @@
             </div>
             
             <div class="flex gap-8 text-sm font-medium text-forest/60">
-                <a href="#" class="hover:text-clay transition-colors">Facebook</a>
-                <a href="#" class="hover:text-clay transition-colors">Instagram</a>
-                <a href="#" class="hover:text-clay transition-colors">GoPack</a>
+                <a href="https://www.facebook.com/profile.php?id=61572064965296" class="hover:text-clay transition-colors">Facebook</a>
+                <a href="https://www.instagram.com/gopack_trailscommunity/" class="hover:text-clay transition-colors">Instagram</a>
+                <a href="https://emperormrpenguin.github.io/GoPack-site/" class="hover:text-clay transition-colors">GoPack</a>
             </div>
             
             <p class="text-xs text-forest/40">
